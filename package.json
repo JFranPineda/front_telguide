@@ -1,0 +1,32 @@
+{
+  "name": "react_graph",
+  "version": "0.1.0",
+  "homepage": "http://localhost:3000",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "3.9.11",
+    "graphql": "16.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-select": "^5.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
