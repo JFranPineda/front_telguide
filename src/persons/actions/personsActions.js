@@ -52,3 +52,12 @@ export const EDIT_NUMBER = gql`
   }
   ${PERSON_DETAILS}
 `
+
+export const PERSON_ADDED = gql`
+  subscription {
+    personAdded {
+      ...PersonDetails
+    }
+  }
+  ${PERSON_DETAILS}
+`
