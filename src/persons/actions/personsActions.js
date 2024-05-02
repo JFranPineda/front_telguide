@@ -9,6 +9,9 @@ const PERSON_DETAILS = gql`
       street 
       city
     }
+    friendOf {
+      username
+    }
   }
 `
 
